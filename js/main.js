@@ -171,3 +171,55 @@ fetch("https://www.dnd5eapi.co/api/ability-scores/str")
   .then((data) => {
     console.log(data.skills[0].name);
   });
+fetch()
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((err) => console.error(err));
+//remove last letter from string javascript
+
+const removeLast = (string) => {
+  const newString = string.substring(0, string.length - 1);
+  return newString;
+};
+console.log(removeLast("Hello"));
+console.log(removeLast("Hello World"));
+console.log(removeLast("Hello World!"));
+console.log(removeLast("Hello World!!"));
+console.log(removeLast("Hello World!!!"));
+console.log(removeLast("Hello World!!!!"));
+console.log(removeLast("Hello World!!!!!"));
+console.log(removeLast("Hello World!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
+console.log(removeLast("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"));
